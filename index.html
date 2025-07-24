@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Moore - Radio Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            background: white;
+            padding: 40px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            color: #7f8c8d;
+        }
+        
+        .story {
+            background: white;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease;
+        }
+        
+        .story:hover {
+            transform: translateY(-2px);
+        }
+        
+        .story-date {
+            color: #3498db;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .story h3 {
+            font-size: 1.4em;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        
+        .story p {
+            color: #555;
+            margin-bottom: 15px;
+        }
+        
+        .audio-player {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        
+        .audio-player audio {
+            width: 100%;
+        }
+        
+        .story-link {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .story-link:hover {
+            text-decoration: underline;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: #7f8c8d;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .header, .story {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Matthew Moore</h1>
+            <p>Senior Producer of Ozarks at Large</p>
+            <p>KUAF • University of Arkansas</p>
+        </div>
+
+        <!-- Story 1 - Replace with your actual stories -->
+        <div class="story">
+            <div class="story-date">July 23, 2025</div>
+            <h3>Fayetteville mayor proposes switch to cart-based recycling</h3>
+            <p>The Fayetteville mayor has proposed a new cart-based recycling system to improve efficiency and reduce costs for the city's waste management program.</p>
+            
+            <div class="audio-player">
+                <audio controls>
+                    <source src="https://cpa.ds.npr.org/s197/audio/2025/07/20250723-fayrecycle.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p><small>Duration: 12:23</small></p>
+            </div>
+            
+            <p><a href="https://www.kuaf.com/show/ozarks-at-large/2025-07-23/fayetteville-mayor-proposes-switch-to-cart-based-recycling" class="story-link">Read Full Story →</a></p>
+        </div>
+
+        <!-- Story 2 - Add more stories like this -->
+        <div class="story">
+            <div class="story-date">July 16, 2025</div>
+            <h3>School-Based Mental Health Symposium focuses on childhood trauma</h3>
+            <p>The 2025 School-Based Mental Health Symposium will focus on empowering educators to respond to childhood trauma, featuring sessions led by the Arkansas Trauma Resource Initiative for Schools.</p>
+            
+            <!-- Add audio player when you have the audio URL -->
+            
+            <p><a href="https://www.kuaf.com/show/ozarks-at-large/2025-07-16/school-based-mental-health-symposium-focuses-on-childhood-trauma" class="story-link">Read Full Story →</a></p>
+        </div>
+
+        <!-- Add more stories here by copying the story div above -->
+        
+        <div class="footer">
+            <p>Radio journalism portfolio • <a href="https://kuaf.com" style="color: #3498db;">KUAF.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
